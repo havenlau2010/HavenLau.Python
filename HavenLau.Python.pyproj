@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b6368542-76d8-45eb-a807-5c308ca9d257</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>HavenLau.Python</Name>
+    <RootNamespace>HavenLau.Python</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="HavenLau.Python.py" />
+    <Compile Include="Main.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\Basic\PythonBasic.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\Basic\RegularExpression.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\Basic\String.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\Basic\__init__.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\DateTime\DateTime.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\DateTime\__init__.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\File\File.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\File\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Math\Math.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Math\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\MultiProcessing\MultiProcessing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\MultiProcessing\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Path\Path.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Path\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Pickle\Pickle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Pickle\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Random\Random.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Random\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Sequence\List.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\Sequence\Tuple.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\Sequence\__init__.py" />
+    <Compile Include="StandardLibrary\LanguageBasic\Shutil\Shutil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Shutil\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Signal\Signal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Signal\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\SubProcess\SubProcess.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\SubProcess\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Threading\Threading.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\Threading\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandardLibrary\LanguageBasic\__init__.py" />
+    <Compile Include="StandardLibrary\m.py" />
+    <Compile Include="StandardLibrary\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="convert.txt" />
+    <Content Include="result.txt" />
+    <Content Include="StandardLibrary\LanguageBasic\Basic\__pycache__\RegularExpression.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Basic\__pycache__\RegularExpression.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Basic\__pycache__\String.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Basic\__pycache__\String.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Basic\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Basic\__pycache__\__init__.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\DateTime\__pycache__\DateTime.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\DateTime\__pycache__\Time.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\DateTime\__pycache__\__init__.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Sequence\__pycache__\List.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Sequence\__pycache__\List.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Sequence\__pycache__\Tuple.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Sequence\__pycache__\Tuple.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Sequence\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\Sequence\__pycache__\__init__.cpython-35.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\new.txt" />
+    <Content Include="StandardLibrary\LanguageBasic\test.txt" />
+    <Content Include="StandardLibrary\LanguageBasic\__pycache__\First.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="StandardLibrary\LanguageBasic\__pycache__\__init__.cpython-35.pyc" />
+    <Content Include="StandardLibrary\__pycache__\m.cpython-34.pyc" />
+    <Content Include="StandardLibrary\__pycache__\m.cpython-35.pyc" />
+    <Content Include="StandardLibrary\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="StandardLibrary\__pycache__\__init__.cpython-35.pyc" />
+    <Content Include="StandardLibrary\标准库的知识说明.txt" />
+    <Content Include="StandardLibrary\正则表达式语法.txt" />
+    <Content Include="test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StandardLibrary\" />
+    <Folder Include="StandardLibrary\LanguageBasic\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Basic\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Basic\__pycache__\" />
+    <Folder Include="StandardLibrary\LanguageBasic\DateTime\" />
+    <Folder Include="StandardLibrary\LanguageBasic\DateTime\__pycache__\" />
+    <Folder Include="StandardLibrary\LanguageBasic\File\" />
+    <Folder Include="StandardLibrary\LanguageBasic\MultiProcessing\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Math\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Random\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Threading\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Signal\" />
+    <Folder Include="StandardLibrary\LanguageBasic\SubProcess\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Pickle\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Shutil\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Path\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Sequence\" />
+    <Folder Include="StandardLibrary\LanguageBasic\Sequence\__pycache__\" />
+    <Folder Include="StandardLibrary\LanguageBasic\__pycache__\" />
+    <Folder Include="StandardLibrary\Network\" />
+    <Folder Include="StandardLibrary\Network\Socket\" />
+    <Folder Include="StandardLibrary\Network\Web\" />
+    <Folder Include="StandardLibrary\PythonAdvanced\" />
+    <Folder Include="StandardLibrary\PythonAdvanced\Caculator\" />
+    <Folder Include="StandardLibrary\PythonAdvanced\Data\" />
+    <Folder Include="StandardLibrary\PythonAdvanced\DateTime\" />
+    <Folder Include="StandardLibrary\PythonAdvanced\Storage\" />
+    <Folder Include="StandardLibrary\PythonAdvanced\String\" />
+    <Folder Include="StandardLibrary\SystemInteraction\" />
+    <Folder Include="StandardLibrary\SystemInteraction\FileSystem\" />
+    <Folder Include="StandardLibrary\SystemInteraction\OperateSystem\" />
+    <Folder Include="StandardLibrary\SystemInteraction\Runtime\" />
+    <Folder Include="StandardLibrary\SystemInteraction\Thread\" />
+    <Folder Include="StandardLibrary\__pycache__\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

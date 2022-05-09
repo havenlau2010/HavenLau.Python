@@ -1,0 +1,68 @@
+'' , -- vipid - varchar(20)
+          NULL , -- vipdiscount - decimal
+          NULL , -- basemark - numeric
+          '' , -- bluser - varchar(20)
+          '2016-01-13 06:31:50' , -- bltime - datetime
+          '' , -- bladtuser - varchar(20)
+          '2016-01-13 06:31:50' , -- bladttime - datetime
+          '' , -- bladtmark - char(1)
+          '' , -- cpid - varchar(10)
+          '' , -- owner - varchar(20)
+          '' , -- ownersex - varchar(1)
+          '2016-01-13 06:31:50' , -- ownerbirth - datetime
+          '' , -- owneriden - char(18)
+          '' , -- ownertel - varchar(20)
+          '' , -- owneraddr - varchar(200)
+          '' , -- clid - varchar(20)
+          '' , -- machineid - varchar(50)
+          N'' , -- cardlevelid - nvarchar(50)
+          '' , -- email - varchar(40)
+          '' , -- homepage - varchar(40)
+          '' , -- BP - varchar(20)
+          '' , -- mobile - varchar(20)
+          '' , -- engcalling - varchar(20)
+          '' , -- salary - varchar(20)
+          '' , -- stature - varchar(10)
+          '' , -- fondcolor - varchar(20)
+          '' , -- plike - varchar(50)
+          '' , -- othdis - char(1)
+          '' , -- issuper - char(1)
+          '2016-01-13 06:31:50' , -- enddate - datetime
+          '2016-01-13 06:31:50' , -- isusedate - datetime
+          '2016-01-13 06:31:50' , -- edittime - datetime
+          '' , -- edituser - varchar(20)
+          '' , -- pwd - char(10)
+          '' , -- istran - char(1)
+          '' , -- UpCardlevelid - varchar(50)
+          '' , -- CustChannel - varchar(20)
+          '' , -- HouseNo - varchar(60)
+          '' , -- Items - varchar(60)
+          '' , -- QQ - varchar(20)
+          '' , -- nationality - varchar(10)
+          '' , -- status - varchar(1)
+          '' , -- dusheng - varchar(1)
+          '' , -- forkid - varchar(10)
+          '' , -- father - varchar(10)
+          '' , -- mother - varchar(10)
+          '' , -- cardno - varchar(20)
+          '' , -- brothercardone - varchar(20)
+          '' , -- brothercardtwo - varchar(20)
+          '' , -- weixin - varchar(30)
+          '' , -- motherjob - varchar(30)
+          '' , -- waiter - varchar(10)
+          '' , -- weditor - varchar(10)
+          '2016-01-13 06:31:50' , -- wedittime - datetime
+          '' , -- name - varchar(20)
+          N'' , -- religion - nvarchar(20)
+          N'' , -- birthplace - nvarchar(20)
+          0 , -- age - int
+          N'' , -- otherguardians - nvarchar(20)
+          N'' , -- recommend - nvarchar(20)
+          N'' , -- recommendphone - nvarchar(20)
+          '' , -- vipsource - varchar(10)
+          '2016-01-13 06:31:50' , -- motherbirth - datetime
+          '2016-01-13 06:31:50' , -- fatherbirth - datetime
+          0 , -- motherage - int
+          0 , -- fatherage - int
+          N'' , -- viptag - nvarchar(200)
+          ''  -- cardnum - varchar(20)
